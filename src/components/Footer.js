@@ -10,7 +10,7 @@ constructor (props) {
   render() {
     return (
       <div className="footer text-center">
-        <p className="text-color">Made with ❤️ by <a className="text-color" href={this.props.details.profile_links.github}>Vaidhyanathan S M</a></p>
+        <p className="text-color">Made with ❤️ by <a className="text-color" href={this.props.details.profile_links.github.link}>Vaidhyanathan S M</a></p>       
       </div>
     );
   }
