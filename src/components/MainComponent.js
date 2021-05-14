@@ -2,6 +2,9 @@ import { Component } from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
 import { DETAILS } from '../shared/details';
 import  About  from './AboutComponent'
+import Education from "./EducationComponent";
+import Skills from './SkillsComponent';
+import Footer from './Footer';
 
 class Main extends Component {
   constructor(props) {
@@ -23,7 +26,22 @@ class Main extends Component {
          {/* Other Child Components */}
         <br />
         <br />
+        <br />
+        <br />
         <About details={this.state.details} />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Education details={this.state.details} />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Skills details={this.state.details} />
+        <br />
+        <br />
+        <Footer details={this.state.details}/>
       </div>
     );
   }
