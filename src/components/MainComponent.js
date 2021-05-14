@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
-import { DETAILS } from '../shared/details'
+import { DETAILS } from '../shared/details';
+import  About  from './AboutComponent'
 
 class Main extends Component {
   constructor(props) {
@@ -20,6 +21,9 @@ class Main extends Component {
           </div>
         </Navbar>
          {/* Other Child Components */}
+        <br />
+        <br />
+        <About details={this.state.details} />
       </div>
     );
   }
