@@ -2,10 +2,6 @@ import { Component } from "react";
 import "../css/SkillsComponent.css";
 
 class Skills extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const skills = this.props.details.skills.map((skill) => {
       return (

@@ -1,10 +1,6 @@
 import { Component } from "react";
 import "../css/ProjectComponent.css";
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   onProjectClicked(id) {
     var projObj = this.props.details.projects.filter(
       (project) => project.id === id

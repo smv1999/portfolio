@@ -5,10 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import "../css/ExperienceComponent.css";
 
 class Experience extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const experiences = this.props.details.experiences.map((experience) => {
       return (

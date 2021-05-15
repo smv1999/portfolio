@@ -1,9 +1,6 @@
 import { Component } from "react";
 
 class Education extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const myProfileDetails = this.props.details;
