@@ -10,10 +10,10 @@ class About extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-5 m-3">
-            <img src={this.props.details.profile_image} alt="Profile" width="100%" height="100%"/>
+          <div className="col-12 col-sm-6" style={{ textAlign: "center", padding: "10px" }}>
+            <img src={this.props.details.profile_image} alt="Profile" width="80%" height="90%"/>
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
             <h2>About</h2>
             <br />
             <h5>{this.props.details.about_me.para1}</h5>

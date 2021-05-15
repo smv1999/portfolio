@@ -1,0 +1,10 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.horizontal-links{
+    display: flex;
+    flex-direction: row;
+  }

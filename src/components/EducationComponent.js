@@ -13,15 +13,19 @@ class Education extends Component {
           <h2 className="text-center">Education</h2>
           <br />
           <br />
-          <div className="col-12 col-md-5 m-3">
+          <div
+            className="col-12 col-sm-6"
+            style={{ textAlign: "center", padding: "10px" }}
+          >
             <img
               src={myProfileDetails.education.college.image}
               alt="College"
-              width="100%"
+              width="80%"
               height="100%"
+              style={{ margin: "auto" }}
             />
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
             <p>
               <b>Course : </b>
               {myProfileDetails.education.college.course}
@@ -39,15 +43,19 @@ class Education extends Component {
               {myProfileDetails.education.college.timeline}
             </p>
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div
+            className="col-12 col-sm-6"
+            style={{ textAlign: "center", padding: "10px" }}
+          >
             <img
               src={myProfileDetails.education.higher_secondary_school.image}
               alt="Higher Secondary School"
-              width="100%"
+              width="80%"
               height="100%"
+              style={{ margin: "auto" }}
             />
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
             <p>
               <b>Course : </b>
               {myProfileDetails.education.higher_secondary_school.course}
@@ -58,22 +66,26 @@ class Education extends Component {
             </p>
             <p>
               <b>School Name : </b>
-              {myProfileDetails.education.higher_secondary_school.name}
+              {myProfileDetails.education.higher_secondary_school.name} 
             </p>
             <p>
               <b>Period : </b>
               {myProfileDetails.education.higher_secondary_school.timeline}
             </p>
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div
+            className="col-12 col-sm-6"
+            style={{ textAlign: "center", padding: "10px" }}
+          >
             <img
               src={myProfileDetails.education.secondary_school.image}
               alt="Secondary School"
-              width="100%"
+              width="80%"
               height="100%"
+              style={{ margin: "auto" }}
             />
           </div>
-          <div className="col-12 col-md-5 m-3">
+          <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
             <p>
               <b>CGPA : </b>
               {myProfileDetails.education.secondary_school.grade}
