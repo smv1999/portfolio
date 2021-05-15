@@ -178,7 +178,7 @@ class Main extends Component {
             }
           />
           <img
-            style={{ width: "30px", height: "30px" , margin: "5px" }}
+            style={{ width: "30px", height: "30px", margin: "5px" }}
             src={this.state.details.profile_links.linkedin.image}
             alt="LinkedIn"
             onClick={() =>
