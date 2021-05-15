@@ -14,6 +14,7 @@ import Education from "./EducationComponent";
 import Skills from "./SkillsComponent";
 import Projects from "./ProjectComponent";
 import Experience from "./ExperienceComponent";
+import Follow from "./FollowComponent";
 import Footer from "./Footer";
 import "../css/MainComponent.css";
 
@@ -123,6 +124,18 @@ class Main extends Component {
         {/* Other Child Components */}
         <br />
         <br />
+        <section id="top">
+        <div className="container text-center jumbotron">
+          <h2 style={{ fontWeight: 700 }}>
+            Hello, I am{" "}
+            <span className="text-color-main">Vaidhyanathan S M</span>
+            <br />I am a Software Developer
+          </h2>
+          <br />
+          <br />
+          <p><span onClick={this.scrollToAbout} className="know-more know-more--specs">Know More</span></p>
+        </div>
+        </section>
         <br />
         <br />
         <div ref={this.aboutRef}>
@@ -165,53 +178,11 @@ class Main extends Component {
         </div>
         <br />
         <br />
-        <div className="container text-center">
-          <h4>Follow me on:</h4>
-        </div>
-        <div className="container horizontal-links">
-          <img
-            style={{ width: "30px", height: "30px", margin: "5px" }}
-            src={this.state.details.profile_links.github.image}
-            alt="GitHub"
-            onClick={() =>
-              this.openLink(this.state.details.profile_links.github)
-            }
-          />
-          <img
-            style={{ width: "30px", height: "30px", margin: "5px" }}
-            src={this.state.details.profile_links.linkedin.image}
-            alt="LinkedIn"
-            onClick={() =>
-              this.openLink(this.state.details.profile_links.linkedin)
-            }
-          />
-          <img
-            style={{ width: "30px", height: "30px", margin: "5px" }}
-            src={this.state.details.profile_links.medium.image}
-            alt="Medium"
-            onClick={() =>
-              this.openLink(this.state.details.profile_links.medium)
-            }
-          />
-          <img
-            style={{ width: "30px", height: "30px", margin: "5px" }}
-            src={this.state.details.profile_links.hackerrank.image}
-            alt="HackerRank"
-            onClick={() =>
-              this.openLink(this.state.details.profile_links.hackerrank)
-            }
-          />
-          <img
-            style={{ width: "30px", height: "30px", margin: "5px" }}
-            src={this.state.details.profile_links.geeksforgeeks.image}
-            alt="Geeks for Geeks"
-            onClick={() =>
-              this.openLink(this.state.details.profile_links.geeksforgeeks)
-            }
-          />
-        </div>
         <br />
         <br />
+        <br />
+        <br />
+        <Follow details={this.state.details} />
         <Footer details={this.state.details} />
       </div>
     );

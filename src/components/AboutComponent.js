@@ -1,4 +1,5 @@
 import { Component } from "react";
+import '../css/AboutComponent.css';
 
 class About extends Component {
   constructor(props) {
@@ -8,6 +9,7 @@ class About extends Component {
 
   render() {
     return (
+      <section id="about">
       <div className="container">
         <div className="row">
           <div className="col-12 col-sm-6" style={{ textAlign: "center", padding: "10px" }}>
@@ -23,6 +25,7 @@ class About extends Component {
           </div>
         </div>
       </div>
+      </section>
     );
   }
 }
