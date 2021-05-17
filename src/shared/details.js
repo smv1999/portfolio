@@ -153,7 +153,7 @@ export const DETAILS = {
       id: 3,
       title: "Covid-19 Sahayak",
       link: "https://drive.google.com/file/d/189Xq2Gb28e5wd8Mja5F4-znbFo06U7K3/view",
-      image: "https://vaidhyanathansm.tech/coronavirus.png",
+      image: "https://raw.githubusercontent.com/smv1999/smv1999.github.io/master/coronavirus.png",
       description: {
         para1: "Provides live updates state-wise and at the world-level",
         para2: "Funds and helpline, Essentials and Maps are some unique features. The app has an Amazing UI/UX and comes with Dark mode in its very first version!"
@@ -193,7 +193,7 @@ export const DETAILS = {
       id: 7,
       title: "Expense Management System",
       link: "https://github.com/smv1999/Xpense",
-      image: "https://vaidhyanathansm.tech/expenses.png",
+      image: "https://smv1999.github.io/expenses.png",
       description: {
         para1: "This is a Expense management system that can be used by housewives at home.",
         para2: "It manages the daily expenses and creates a bill.! It is very user-friendly and works efficiently."
