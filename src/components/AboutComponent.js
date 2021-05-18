@@ -12,10 +12,10 @@ class About extends Component {
       <section id="about">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-6" style={{ textAlign: "center", padding: "10px" }}>
+          <div className="col-12 col-sm-6" style={{ textAlign: "center", padding: "20px" }}>
             <img src={this.props.details.profile_image} alt="Profile" width="80%" height="90%"/>
           </div>
-          <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
+          <div className="col-12 col-sm-6" style={{ padding: "30px" }}>
             <h2>About</h2>
             <br />
             <h5>{this.props.details.about_me.para1}</h5>

@@ -70,10 +70,6 @@ export const DETAILS = {
       name: "Python",
     },
     {
-      image: "assets/images/java.svg",
-      name: "Java",
-    },
-    {
       image: "assets/images/c_lang.svg",
       name: "C",
     },
@@ -101,10 +97,6 @@ export const DETAILS = {
     {
       image: "assets/images/firebase.svg",
       name: "Firebase",
-    },
-    {
-      image: "assets/images/debugging.jpg",
-      name: "Debugging",
     },
     {
       image: "assets/images/blogging.jpg",
