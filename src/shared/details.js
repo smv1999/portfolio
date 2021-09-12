@@ -42,7 +42,7 @@ export const DETAILS = {
       name: "Rajalakshmi Engineering College",
       course: "B.E Computer Science and Engineering",
       grade: "9.41",
-      timeline: "2017-Present",
+      timeline: "2017-2021",
       image: "assets/images/college.jpg",
     },
     higher_secondary_school: {
