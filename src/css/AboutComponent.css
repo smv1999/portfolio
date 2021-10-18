@@ -4,9 +4,7 @@
   color: #fff;
   height: 100%;
   border-top: 0;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
 section {
   padding: 5rem 0;

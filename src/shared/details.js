@@ -238,18 +238,18 @@ export const DETAILS = {
       positions: [
         {
           id: 1,
-          position: "Project Intern",
-          type: "Internship",
-          description: "Worked in a Project named Smart Browser Console.",
-          timeline: "Mar 2021 - May 2021",
-        },
-        {
-          id: 2,
           position: "Systems Engineer",
           type: "Full Time",
           description: "Working on TCS MasterCraft DataPlus",
           timeline: "May 2021 - Present",
         },
+        {
+          id: 2,
+          position: "Project Intern",
+          type: "Internship",
+          description: "Worked in a Project named Smart Browser Console.",
+          timeline: "Mar 2021 - May 2021",
+        }
       ],
     },
     {
