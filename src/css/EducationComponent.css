@@ -1,0 +1,16 @@
+.edu-tile p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.edu-tile:hover {
+  transform: scale(1.1);
+}
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.pos {
+  margin-bottom: 12;
+}
