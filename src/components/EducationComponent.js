@@ -35,8 +35,8 @@ class Education extends Component {
                 <CardMedia
                   component="img"
                   style={{
-                    height: "50px",
-                    width: "50px",
+                    height: "60px",
+                    width: "60px",
                   }}
                   image="/assets/images/college.png"
                   alt="Graduation"
@@ -81,8 +81,8 @@ class Education extends Component {
                 <CardMedia
                   component="img"
                   style={{
-                    height: "50px",
-                    width: "50px",
+                    height: "60px",
+                    width: "60px",
                   }}
                   image="/assets/images/high_school.png"
                   alt="Graduation"
@@ -127,8 +127,8 @@ class Education extends Component {
                 <CardMedia
                   component="img"
                   style={{
-                    height: "50px",
-                    width: "50px",
+                    height: "60px",
+                    width: "60px",
                   }}
                   image="/assets/images/school.png"
                   alt="Graduation"

@@ -4,6 +4,7 @@ import {
   Navbar,
   NavbarToggler,
   Nav,
+  NavbarBrand,
   NavItem,
   NavLink,
 } from "reactstrap";
@@ -16,6 +17,7 @@ import Experience from "./ExperienceComponent";
 import Follow from "./FollowComponent";
 import Footer from "./Footer";
 import "../css/MainComponent.css";
+import { motion } from "framer-motion";
 
 class Main extends Component {
   constructor(props) {
@@ -43,7 +45,7 @@ class Main extends Component {
   scrollToExperience = () => this.experienceRef.current.scrollIntoView();
 
   render() {
-    // const myProfileDetails = this.state.details;
+    const myProfileDetails = this.state.details;
 
     return (
       <div>
@@ -54,13 +56,6 @@ class Main extends Component {
           className="navbar"
           style={{ padding: ".5rem 1rem" }}
         >
-          {/* <NavbarBrand href="/">
-            <img
-              src={myProfileDetails.logo}
-              alt={myProfileDetails.name}
-              style={{ width: "30px", height: "30px" }}
-            />
-          </NavbarBrand> */}
           <NavbarToggler onClick={this.toggleMenu} />
           <Collapse isOpen={this.state.menu} navbar>
             <Nav className="m-auto" navbar>
@@ -115,25 +110,41 @@ class Main extends Component {
         {/* Other Child Components */}
         <br />
         <br />
-        <section id="top">
-          <div className="container text-center jumbotron">
-            <h2 className="text-color-main">
+        <motion.section
+          id="top"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+        >
+          <motion.div
+            className="container text-center jumbotron"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2, duration: 1 }}
+          >
+            <motion.h2
+              className="text-color-main"
+              animate={{ fontWeight: 700 }}
+              transition={{ delay: 1.3, duration: 1 }}
+            >
               Hello, I am{" "}
               <span className="text-color-main-name">Vaidhyanathan S M</span>
               <br />I am a Software Developer
-            </h2>
+            </motion.h2>
             <br />
             <br />
             <p>
-              <span
+              <motion.span
+                animate={{ scale: 1.15 }}
+                transition={{ delay: 1.4, duration: 1 }}
                 onClick={this.scrollToAbout}
                 className="know-more know-more--specs"
               >
                 Know More
-              </span>
+              </motion.span>
             </p>
-          </div>
-        </section>
+          </motion.div>
+        </motion.section>
         <div ref={this.aboutRef}>
           <About details={this.state.details} />
         </div>

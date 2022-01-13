@@ -5,6 +5,7 @@
     rgb(255, 255, 255)
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 4px;
   border-style: solid;
@@ -20,7 +21,6 @@
   padding: 0.6rem 1.4rem;
   font-weight: 600;
   line-height: 1;
-  z-index: 0;
   color: white;
 }
 #projects {
