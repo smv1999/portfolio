@@ -210,9 +210,9 @@ export const DETAILS = {
       image: "assets/images/cplusplus.svg",
       description: {
         para1:
-          "This is a Expense management system that can be used by housewives at home.",
+          "Custom Utility Header Files are created from scratch in C++ for performing various operations on Data Structures.",
         para2:
-          "It manages the daily expenses and creates a bill.! It is very user-friendly and works efficiently.",
+          "Additional functionalities are added for performing various operations on Arrays, Linked Lists and Trees.",
       },
     },
     {
@@ -222,9 +222,7 @@ export const DETAILS = {
       image: "assets/images/password.svg",
       description: {
         para1:
-          "Custom Utility Header Files are created from scratch in C++ for performing various operations on Data Structures.",
-        para2:
-          "Additional functionalities are added for performing various operations on Arrays, Linked Lists and Trees.",
+          "This is a Password Generator and Management System. The Password Generation module is responsible for helping you create unique and secure password. The Password Management module is responsible to store and retrieve the passwords pertaining to the websites in which you have / want to have an account.",
       },
     },
   ],
