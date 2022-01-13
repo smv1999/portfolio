@@ -4,7 +4,6 @@ import {
   Navbar,
   NavbarToggler,
   Nav,
-  NavbarBrand,
   NavItem,
   NavLink,
 } from "reactstrap";
@@ -45,8 +44,6 @@ class Main extends Component {
   scrollToExperience = () => this.experienceRef.current.scrollIntoView();
 
   render() {
-    const myProfileDetails = this.state.details;
-
     return (
       <div>
         <Navbar
