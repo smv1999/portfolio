@@ -7,37 +7,55 @@ class Projects extends Component {
     )[0];
     window.open(projObj.link, "_blank");
   }
-  
+
+  openProjectsURL() {
+    window.open(this.props.details.profile_links.github.link, "_blank");
+  }
+
   render() {
     const projects = this.props.details.projects.map((project) => {
       return (
-        <div key={project.id} className="row">
-          <div className="col-12 col-sm-6" style={{textAlign: "center"}}>
+        <div key={project.id} className="row" style={{ marginTop: "30px" }}>
+          <div className="col-12 col-sm-6" style={{ textAlign: "center" }}>
             <img
               src={project.image}
               alt={project.title}
-              width="25%"
-              height="70%"
-              style={{margin:"auto"}}
+              width="22%"
+              height="75%"
+              style={{ margin: "auto" }}
             />
           </div>
-          <div className="col-12 col-sm-6" style={{padding: "20px"}}>
+          <div className="col-12 col-sm-6">
             <h4>{project.title}</h4>
             <p>{project.description.para1}</p>
             <p>{project.description.para2}</p>
-            <button className="button" onClick={() => this.onProjectClicked(project.id)} >View Project</button>
+            <button
+              className="view-projects view-projects--specs"
+              onClick={() => this.onProjectClicked(project.id)}
+            >
+              View Project
+            </button>
           </div>
         </div>
       );
     });
 
     return (
-      <div className="container">
-        <h2 className="text-center">Projects</h2>
-        <br />
-        <br />
-        {projects}
-      </div>
+      <section id="projects">
+        <div className="container">
+          <h2 className="text-center">Projects</h2>
+          {projects}
+          <div className="text-center">
+            <button
+              style={{ marginTop: "30px" }}
+              className="view-projects view-projects--specs"
+              onClick={() => this.openProjectsURL()}
+            >
+              More Projects
+            </button>
+          </div>
+        </div>
+      </section>
     );
   }
 }

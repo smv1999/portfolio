@@ -2,6 +2,9 @@ import { Component } from "react";
 import "../css/FollowComponent.css";
 
 class Follow extends Component {
+  openLink(social) {
+    window.open(social.link, "_blank");
+  }
   render() {
     return (
       <section id="follow">

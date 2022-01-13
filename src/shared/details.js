@@ -184,26 +184,23 @@ export const DETAILS = {
     },
     {
       id: 6,
-      title: "Math Your Way - Fall in Love with Math",
-      link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.mathyourway",
+      title: "pysh - A Cross-Platform Shell written in Python",
+      link: "https://github.com/smv1999/pysh",
       image:
-        "https://play-lh.googleusercontent.com/8pHsVCV8O9fOKFSGAsp5vKY5GFBTJNKPx5k_NyyVhAmITaClfnkN2VpHIH1HGIW5OA=s180-rw",
+        "https://raw.githubusercontent.com/smv1999/pysh/main/assets/pysh.png?token=AKHIZQNOKDX3DBIRQYVD4P3BZIHQQ",
       description: {
         para1:
-          "There are extraordinary features such as Advanced and Basic Calculators and Math puzzles and Games that will make children to love Mathematics.",
-        para2: "With amazing UI and design, you will Fall in love with Math!",
+          "pysh is a cross-platform shell written in Python. The shell consists of all the commands, from general to file management to networking.          ",
       },
     },
     {
       id: 7,
-      title: "Expense Management System",
-      link: "https://github.com/smv1999/Xpense",
-      image: "https://smv1999.github.io/expenses.png",
+      title: "GitWar - Compare Two GitHub Profiles",
+      link: "https://github.com/smv1999/GitWar",
+      image: "assets/images/gitwar.png",
       description: {
         para1:
-          "This is a Expense management system that can be used by housewives at home.",
-        para2:
-          "It manages the daily expenses and creates a bill.! It is very user-friendly and works efficiently.",
+          "GitWar is a browser extension that allows you to compare one GitHub profile with another.          ",
       },
     },
     {
@@ -249,7 +246,7 @@ export const DETAILS = {
           type: "Internship",
           description: "Worked in a Project named Smart Browser Console.",
           timeline: "Mar 2021 - May 2021",
-        }
+        },
       ],
     },
     {

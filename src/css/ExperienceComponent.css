@@ -1,5 +1,6 @@
 .root {
   maxwidth: 345;
+  color: white !important;
 }
 .media {
   height: 100%;
@@ -7,4 +8,18 @@
 }
 .pos {
   margin-bottom: 12;
+  color: white !important;
+}
+
+#experience {
+  background-color: rgb(46, 47, 52);
+  background-image: linear-gradient(135deg, rgb(46, 47, 52), rgb(46, 47, 52));
+  color: #fff;
+  height: 100%;
+  border-top: 0;
+  padding-bottom: 5%;
+}
+
+section {
+  padding: 5rem 0;
 }

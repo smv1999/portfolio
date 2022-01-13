@@ -1,12 +1,25 @@
 .skill-tile p {
-    font-size: 20px;
-    margin-top: 10px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .skill-tile:hover {
-    transform: scale(1.1);
+  transform: scale(1.05);
 }
 .container {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills {
+  background-color: rgb(46, 47, 52);
+  background-image: linear-gradient(135deg, rgb(46, 47, 52), rgb(46, 47, 52));
+  color: #fff;
+  height: 100%;
+  border-top: 0;
+  padding-bottom: 5%;
+}
+
+section {
+  padding: 5rem 0;
 }
