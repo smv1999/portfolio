@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -44,7 +43,7 @@ class Main extends Component {
   scrollToExperience = () => this.experienceRef.current.scrollIntoView();
 
   render() {
-    const myProfileDetails = this.state.details;
+    // const myProfileDetails = this.state.details;
 
     return (
       <div>
