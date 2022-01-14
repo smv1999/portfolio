@@ -27,8 +27,8 @@ class Projects extends Component {
           </div>
           <div className="col-12 col-sm-6">
             <h4>{project.title}</h4>
-            <p>{project.description.para1}</p>
-            <p>{project.description.para2}</p>
+            <p className="text-justify">{project.description.para1}</p>
+            <p className="text-justify">{project.description.para2}</p>
             <button
               className="view-projects view-projects--specs"
               onClick={() => this.onProjectClicked(project.id)}
