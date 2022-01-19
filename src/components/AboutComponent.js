@@ -64,18 +64,23 @@ class About extends Component {
                 }}
               >
                 <CardContent>
-                  <p
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                    }}
+                  <a
+                    href="https://www.amazon.in/dp/B0975475WF"
+                    style={{ color: "white", textDecoration: "none" }}
                   >
-                    <b style={{ fontSize: "30px" }}>400+ Units Sold</b>
-                    <br />
-                    Self-Published Book - Ace the Coding Interview: Roadmap to
-                    Land Your First Programming Job
-                  </p>
+                    <p
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                      }}
+                    >
+                      <b style={{ fontSize: "30px" }}>400+ Units Sold</b>
+                      <br />
+                      Self-Published Book - Ace the Coding Interview: Roadmap to
+                      Land Your First Programming Job
+                    </p>
+                  </a>
                 </CardContent>
               </Card>
             </motion.div>
@@ -97,17 +102,22 @@ class About extends Component {
                 }}
               >
                 <CardContent>
-                  <p
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                    }}
+                  <a
+                    href="https://github.com/smv1999/"
+                    style={{ color: "white", textDecoration: "none" }}
                   >
-                    <b style={{ fontSize: "30px" }}>3+ Talks</b>
-                    <br />
-                    at various Events / Programs / Workshops
-                  </p>
+                    <p
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                      }}
+                    >
+                      <b style={{ fontSize: "30px" }}>3+ Talks</b>
+                      <br />
+                      at various Events / Programs / Workshops
+                    </p>
+                  </a>
                 </CardContent>
               </Card>
             </motion.div>
@@ -129,17 +139,22 @@ class About extends Component {
                 }}
               >
                 <CardContent>
-                  <p
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                    }}
+                  <a
+                    href="https://play.google.com/store/apps/dev?id=6670598499208527718"
+                    style={{ color: "white", textDecoration: "none" }}
                   >
-                    <b style={{ fontSize: "30px" }}>9 Apps</b>
-                    <br />
-                    Successfully Deployed on Google Play Store
-                  </p>
+                    <p
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                      }}
+                    >
+                      <b style={{ fontSize: "30px" }}>9 Apps</b>
+                      <br />
+                      Successfully Deployed on Google Play Store
+                    </p>
+                  </a>
                 </CardContent>
               </Card>
             </motion.div>
