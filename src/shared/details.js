@@ -33,7 +33,7 @@ export const DETAILS = {
     para2:
       "This is Vaidhyanathan S M. I am currently pursuing my Bachelor's Degree in Computer Science and Engineering from Rajalakshmi Engineering College.",
     para3:
-      "I am a skilled Native Android and Flutter Developer with 10 apps successfully published on to the Google Play Store. I have the potential of converting ideas into working products. I am also highly skilled in C/C++, Java, Python, and Flask. I have special interests in the field of Artificial Intelligence and Data Science.",
+      "I am a skilled Native Android and Flutter Developer with 9 apps successfully published on to the Google Play Store. I have the potential of converting ideas into working products. I am also highly skilled in C/C++, Java, Python, and Flask. I have special interests in the field of Artificial Intelligence and Data Science.",
     para4:
       "I also write Technical Articles during my free time on Medium. I am an active Open Source Contributor on GitHub.",
   },
