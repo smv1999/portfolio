@@ -140,6 +140,19 @@ class Main extends Component {
                 Know More
               </motion.span>
             </p>
+            <br />
+            <br />
+            <p style={{ fontWeight: 700, fontSize: 25 }}>
+              Listen to my weekly podcast here!
+            </p>
+            <iframe
+              title="Tech Untangled Podcast"
+              src="https://anchor.fm/vaidhyanathansm/embed"
+              height="102px"
+              width="400px"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
           </motion.div>
         </motion.section>
         <div ref={this.aboutRef}>
