@@ -31,9 +31,9 @@ export const DETAILS = {
   about_me: {
     para1: "<Hello World/>",
     para2:
-      "This is Vaidhyanathan S M. I am currently pursuing my Bachelor's Degree in Computer Science and Engineering from Rajalakshmi Engineering College.",
+      "This is Vaidhyanathan S M. I am currently working as a Senior Product Engineer in Tata Consultancy Services for 3.5+ years.",
     para3:
-      "I am a skilled Native Android and Flutter Developer with 9 apps successfully published on to the Google Play Store. I have the potential of converting ideas into working products. I am also highly skilled in C/C++, Java, Python, and Flask. I have special interests in the field of Artificial Intelligence and Data Science.",
+      "I am a skilled Native Android and Flutter Developer with 9 apps successfully published on to the Google Play Store. I have the potential of converting ideas into working products. I am also highly skilled in C/C++, Java, Python, Angular, Spring Boot and Flask. I have special interests in the field of Artificial Intelligence and Data Science.",
     para4:
       "I also write Technical Articles during my free time on Medium. I am an active Open Source Contributor on GitHub.",
   },
@@ -121,15 +121,15 @@ export const DETAILS = {
   projects: [
     {
       id: 1,
-      title: "Be Fit - Your Fitness Partner",
-      link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.befit",
+      title: "DataMorph",
+      link: "https://www.npmjs.com/package/@smv1999/datamorph",
       image:
-        "https://play-lh.googleusercontent.com/YW4d2Z8jZhNE4C6gNFR5kFeV3h8brRp9QAfqgsrxF00TdELiwxRWmyrdEkE7fKhur58=s180-rw",
+        "https://github.com/smv1999/datamorph/blob/main/assets/datamorph.jpg?raw=true",
       description: {
         para1:
-          "The application provides exercises, food and fitness tips for maintaining the health properly.",
+          "A package that allows you to convert your data between different formats.",
         para2:
-          "The application is made completely user-friendly and has an amazing user-experience and has a dark mode in its very first version itself!",
+          "The supported data formats include YAML, JSON, CSV and INI. The conversions that are supported include YAML to JSON, CSV to JSON, JSON to CSV, INI to JSON, JSON to INI.",
       },
     },
     {
@@ -137,7 +137,7 @@ export const DETAILS = {
       title: "Sketch Tab - Your Art Playground",
       link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.sketchtab",
       image:
-        "https://play-lh.googleusercontent.com/arjwweu2ecu2V3OWozZUYYm67xWir-8njlyBtmayu33nhmZTFuBZ_E5ZkJe2-loNhg=s180-rw",
+        "https://play-lh.googleusercontent.com/arjwweu2ecu2V3OWozZUYYm67xWir-8njlyBtmayu33nhmZTFuBZ_E5ZkJe2-loNhg=w240-h480-rw",
       description: {
         para1:
           "Kick off the artist in you and get your hands to work on something cool. Play with the tools in the art gallery and enjoy drawing. It is completely offline.",
@@ -159,23 +159,10 @@ export const DETAILS = {
     },
     {
       id: 4,
-      title: "Weather Heute - Know your Weather",
-      link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.weatherheute",
-      image:
-        "https://play-lh.googleusercontent.com/J0ReGAfHAH3bm3hVJz5VH1N2aAbv-1AFv-JpbFlwRi_KhelJvTYI575uMtv74hGODA=s180-rw",
-      description: {
-        para1:
-          "Climate change is sometimes misunderstood as being about changes in the weather. In reality, it is about changes in our very way of life.",
-        para2:
-          "Get the weather updates according to your current location.Also, get weather updates of major cities of the world.",
-      },
-    },
-    {
-      id: 5,
       title: "Dev Portal - Community Portal for Developers",
       link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.dev_portal",
       image:
-        "https://play-lh.googleusercontent.com/4D3fo8kk8XYPV2kcVZKZdeL07hTxAFFuRKkAWRm7FLOT6TtNrCINKGB5uS7t_whbalZK=s180-rw",
+        "https://play-lh.googleusercontent.com/4D3fo8kk8XYPV2kcVZKZdeL07hTxAFFuRKkAWRm7FLOT6TtNrCINKGB5uS7t_whbalZK=w240-h480-rw",
       description: {
         para1: "Dev Portal is a Community Portal for Developers.",
         para2:
@@ -183,28 +170,18 @@ export const DETAILS = {
       },
     },
     {
-      id: 6,
+      id: 5,
       title: "pysh - A Cross-Platform Shell written in Python",
       link: "https://github.com/smv1999/pysh",
       image:
-        "https://raw.githubusercontent.com/smv1999/pysh/main/assets/pysh.png?token=AKHIZQNOKDX3DBIRQYVD4P3BZIHQQ",
+        "https://raw.githubusercontent.com/smv1999/pysh/refs/heads/main/assets/pysh.png",
       description: {
         para1:
           "pysh is a cross-platform shell written in Python. The shell consists of all the commands, from general to file management to networking.          ",
       },
     },
     {
-      id: 7,
-      title: "GitWar - Compare Two GitHub Profiles",
-      link: "https://github.com/smv1999/GitWar",
-      image: "assets/images/gitwar.png",
-      description: {
-        para1:
-          "GitWar is a browser extension that allows you to compare one GitHub profile with another.          ",
-      },
-    },
-    {
-      id: 8,
+      id: 6,
       title: "Custom Utility Header Files",
       link: "https://github.com/smv1999/custom-header-files-cpp",
       image: "assets/images/cplusplus.svg",
@@ -216,13 +193,14 @@ export const DETAILS = {
       },
     },
     {
-      id: 9,
-      title: "Password Generator and Manager",
-      link: "https://github.com/smv1999/Password-Generator-and-Manager",
-      image: "assets/images/password.svg",
+      id: 7,
+      title: "py_dsa",
+      link: "https://pypi.org/project/py-dsa/",
+      image:
+        "https://github.com/smv1999/py_dsa/blob/main/assets/py_dsa.jpg?raw=true",
       description: {
         para1:
-          "This is a Password Generator and Management System. The Password Generation module is responsible for helping you create unique and secure password. The Password Management module is responsible to store and retrieve the passwords pertaining to the websites in which you have / want to have an account.",
+          "The py_dsa package contains all the data structures and algorithms implementations.",
       },
     },
   ],
@@ -235,7 +213,7 @@ export const DETAILS = {
           id: 1,
           position: "Systems Engineer",
           type: "Full Time",
-          description: "Working on TCS MasterCraft DataPlus",
+          description: "Working on TCS MasterCraft",
           timeline: "May 2021 - Present",
         },
         {

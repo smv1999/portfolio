@@ -165,7 +165,7 @@ class Main extends Component {
                     <span className="text-color-main-name">
                       Vaidhyanathan S M
                     </span>
-                    <br />I am a Software Developer
+                    <br />A Passionate Software Developer
                   </motion.h2>
                   <br />
                   <br />
